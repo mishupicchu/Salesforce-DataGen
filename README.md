@@ -102,31 +102,10 @@ object and call createRecord multiple times
 Class Hierachy
 -------------------------		
 
-			 |----------------|                                
-   		 | WorkerThread   |
-   		 |----------------|  
-				             /
-         		      has-a
-   		          /                 
-   			      /
-			      V
-		|-------------------------|             |---------------------|
-    |     Record 	            |--has-a----->|   SalesForceClient  |
-    |-------------------------|             |---------------------|
-                           ^                                 
-                          /                                  
-                       is-a                              
-       			          /                                      
- 	    |----------------|                        
-    	|   WorkRecord   |
-    	|----------------|
-                ^                                 
-               /                                  
-             is-a                              
-             /                                      
- |----------------|                        
- |     Bug        |
- |----------------|
+	WorkerThread.java has-a Record.java
+	Record.java has-a SalesforceClient.java
+	WorkRecord.java is-a Record.java
+	Bug.java is-a WorkRecord.java
 
 
   Contacts
