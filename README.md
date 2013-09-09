@@ -94,11 +94,15 @@ Design Decisions & Issues
 o WorkTrigger needs to be disabled in your app (it seems it cannot
 push records without this being disabled) -- which was for my specific case in create the custom object ADM_Work__c
 for copy of Salesforce's custom app gus.salesforce.com.
+
 o Some defaults had to be made in Record.java (will create an Account
 record by default) and similarly with WorkRecord (default is an empty obj).
+
 o A lot of hardcoded Strings for logging messages and Record template
+
 o Each Record takes in a SalesForceClient to use so you can use multiple clients
 and connect to various apps easily.
+
 o It may seem you need multiple 'Record' objects but you can use one 'Record'
 object and call createRecord multiple times
 
