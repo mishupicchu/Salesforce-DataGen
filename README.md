@@ -1,4 +1,5 @@
 @author Mishika Vora
+
 ----------------------
 Program Description
 ----------------------
@@ -27,17 +28,20 @@ Bug.java extends WorkRecord.java (so one can create a Bug record and not
 just a generic Record).
                          
 Jars Needed:
-log4j-1.2.17.jar
-javax-ssl-1_1.jar
-httpasyncclient-cache-4.0-beta4.jar
-httpasyncclient-4.0-beta4.jar
-httpmime-4.2.5.jar
-httpcore-4.2.4.jar
-httpclient-cache-4.2.5.jar
-httpclient-4.2.5.jar
-fluent-hc-4.2.5.jar
-commons-logging-1.1.1.jar
-commons-codec-1.6.jar
+
+log4j-1.2.17.jar, 
+javax-ssl-1_1.jar,
+httpasyncclient-cache-4.0-beta4.jar,
+httpasyncclient-4.0-beta4.jar,
+httpmime-4.2.5.jar,
+httpcore-4.2.4.jar,
+httpclient-cache-4.2.5.jar,
+httpclient-4.2.5.jar,
+fluent-hc-4.2.5.jar,
+commons-logging-1.1.1.jar,
+commons-codec-1.6.jar,
+
+
 ----------------------
 Running The Program
 ----------------------
@@ -79,8 +83,8 @@ Reset My Security Token.
 After you get that, then your security token should be emailed to you
 (hopefully you associated your email with admin user).
 
-you will need this for ouath as
-USERNAME = your login username
+You will need this for Oauth as: 
+USERNAME = your login username and
 PASSWORD = your login password (appended to) security token
 
 -------------------------
